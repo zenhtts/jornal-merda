@@ -1,6 +1,6 @@
 const obituaryData = [
   // Homens
-  { name: "Marcos Ferreira", img: "fotos/homem (1).jpg" },
+  { name: "Marcos Ferreira", img: "homem (1).jpg" },
   { name: "Pedro Silva", img: "fotos/homem (2).jpg" },
   { name: "André Moreira", img: "fotos/homem (3).jpg" },
   { name: "João Campos", img: "fotos/homem (4).jpg" },
@@ -47,3 +47,4 @@ setInterval(() => {
   const y = Math.random() * 2 - 1;
   container.style.transform = `translate(${x}px, ${y}px)`;
 }, 120);
+
