@@ -1,27 +1,27 @@
 const obituaryData = [
   // Homens
   { name: "Marcos Ferreira", img: "homem (1).jpg" },
-  { name: "Pedro Silva", img: "fotos/homem (2).jpg" },
-  { name: "André Moreira", img: "fotos/homem (3).jpg" },
-  { name: "João Campos", img: "fotos/homem (4).jpg" },
-  { name: "Ricardo Nunes", img: "fotos/homem (5).jpg" },
-  { name: "Carlos Henrique", img: "fotos/homem (6).jpg" },
-  { name: "Roberto Carvalho", img: "fotos/homem (7).jpg" },
-  { name: "Felipe Araújo", img: "fotos/homem (8).jpg" },
-  { name: "Eduardo Correia", img: "fotos/homem (9).jpg" },
-  { name: "Kin Saint Ramires", img: "fotos/homem (10).jpg" },
-  { name: "Kin Jr Rodrigues", img: "fotos/homem (11).jpg" },
+  { name: "Pedro Silva", img: "homem (2).jpg" },
+  { name: "André Moreira", img: "homem (3).jpg" },
+  { name: "João Campos", img: "homem (4).jpg" },
+  { name: "Ricardo Nunes", img: "homem (5).jpg" },
+  { name: "Carlos Henrique", img: "homem (6).jpg" },
+  { name: "Roberto Carvalho", img: "homem (7).jpg" },
+  { name: "Felipe Araújo", img: "homem (8).jpg" },
+  { name: "Eduardo Correia", img: "homem (9).jpg" },
+  { name: "Kin Saint Ramires", img: "homem (10).jpg" },
+  { name: "Kin Jr Rodrigues", img: "homem (11).jpg" },
 
   // Mulheres (com "(1)" nos arquivos)
-  { name: "Luciana Alves", img: "fotos/mulher(1).jpeg" },
-  { name: "Carolina Duarte", img: "fotos/mulher(2).jpeg" },
-  { name: "Fernanda Ribeiro", img: "fotos/mulher(3).jpeg" },
-  { name: "Patrícia Mendes", img: "fotos/mulher(4).jpeg" },
-  { name: "Tatiane Souza", img: "fotos/mulher(5).jpeg" },
-  { name: "Juliana Torres", img: "fotos/mulher(6).jpeg" },
-  { name: "Vanessa Martins", img: "fotos/mulher(7).jpeg" },
-  { name: "Gabriela Pinto", img: "fotos/mulher(8).jpeg" },
-  { name: "Hana Alvez Rodrigues", img: "fotos/mulher(9).jpeg" }
+  { name: "Luciana Alves", img: "mulher(1).jpeg" },
+  { name: "Carolina Duarte", img: "mulher(2).jpeg" },
+  { name: "Fernanda Ribeiro", img: "mulher(3).jpeg" },
+  { name: "Patrícia Mendes", img: "mulher(4).jpeg" },
+  { name: "Tatiane Souza", img: "mulher(5).jpeg" },
+  { name: "Juliana Torres", img: "mulher(6).jpeg" },
+  { name: "Vanessa Martins", img: "mulher(7).jpeg" },
+  { name: "Gabriela Pinto", img: "mulher(8).jpeg" },
+  { name: "Hana Alvez Rodrigues", img: "mulher(9).jpeg" }
 ];
 
 function generateObituary() {
@@ -47,4 +47,5 @@ setInterval(() => {
   const y = Math.random() * 2 - 1;
   container.style.transform = `translate(${x}px, ${y}px)`;
 }, 120);
+
 
