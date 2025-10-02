@@ -15,12 +15,12 @@ const obituaryData = [
   // Mulheres (com "(1)" nos arquivos)
   { name: "Luciana Alves", img: "mulher(1).jpeg" },
   { name: "Carolina Duarte", img: "mulher(2).jpeg" },
-  { name: "Fernanda Ribeiro", img: "mulher(3).jpeg" },
+  { name: "Fernanda Ribeiro", img: "mulher(3).jpg" },
   { name: "Patrícia Mendes", img: "mulher(4).jpeg" },
-  { name: "Tatiane Souza", img: "mulher(5).jpeg" },
-  { name: "Juliana Torres", img: "mulher(6).jpeg" },
+  { name: "Tatiane Souza", img: "mulher(5).jpg" },
+  { name: "Juliana Torres", img: "mulher(6).jpg" },
   { name: "Vanessa Martins", img: "mulher(7).jpeg" },
-  { name: "Gabriela Pinto", img: "mulher(8).jpeg" },
+  { name: "Gabriela Pinto", img: "mulher(8).jpg" },
   { name: "Hana Alvez Rodrigues", img: "mulher(9).jpeg" }
 ];
 
@@ -47,5 +47,6 @@ setInterval(() => {
   const y = Math.random() * 2 - 1;
   container.style.transform = `translate(${x}px, ${y}px)`;
 }, 120);
+
 
 
