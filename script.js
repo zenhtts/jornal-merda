@@ -5,7 +5,7 @@ const obituaryData = [
   { name: "André Moreira", img: "homem (3).jpg" },
   { name: "João Campos", img: "homem (4).jpg" },
   { name: "Ricardo Nunes", img: "homem (5).jpg" },
-  { name: "Carlos Henrique", img: "homem (6).jpg" },
+  { name: "Carlos Henrique", img: "homem (6).jpeg" },
   { name: "Roberto Carvalho", img: "homem (7).jpg" },
   { name: "Felipe Araújo", img: "homem (8).jpg" },
   { name: "Eduardo Correia", img: "homem (9).jpg" },
@@ -47,6 +47,7 @@ setInterval(() => {
   const y = Math.random() * 2 - 1;
   container.style.transform = `translate(${x}px, ${y}px)`;
 }, 120);
+
 
 
 
